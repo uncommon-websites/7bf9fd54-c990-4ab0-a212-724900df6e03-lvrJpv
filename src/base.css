@@ -1,128 +1,126 @@
 @utility section-px {
-	@apply px-4 md:px-5 lg:px-8;
+  @apply px-4 md:px-5 lg:px-8;
 }
 
-@utility container { 
-   margin-inline: auto;  
-   @apply section-px;
+@utility container {
+  margin-inline: auto;
+  @apply section-px;
 }
 
 @utility section-py {
-	@apply py-16 md:py-20 lg:py-24 xl:py-28;
+  @apply py-16 md:py-20 lg:py-24 xl:py-28;
 }
 
 @utility section-pt {
-	@apply pt-16 md:pt-20 lg:pt-24 xl:pt-28;
+  @apply pt-16 md:pt-20 lg:pt-24 xl:pt-28;
 }
 
 @utility section-pb {
-	@apply pb-16 md:pb-20 lg:pb-24 xl:pb-28;
+  @apply pb-16 md:pb-20 lg:pb-24 xl:pb-28;
 }
 
 @utility section-py-sm {
-	@apply py-8 md:py-10 lg:py-12 xl:py-14;
+  @apply py-8 md:py-10 lg:py-12 xl:py-14;
 }
 
 @utility section-pt-sm {
-	@apply pt-8 md:pt-10 lg:pt-12 xl:pt-14;
+  @apply pt-8 md:pt-10 lg:pt-12 xl:pt-14;
 }
 
 @utility section-pb-sm {
-	@apply pb-8 md:pb-10 lg:pb-12 xl:pb-14;
+  @apply pb-8 md:pb-10 lg:pb-12 xl:pb-14;
 }
 
 @utility section-mx {
-	@apply mx-4 md:mx-5 lg:mx-8;
+  @apply mx-4 md:mx-5 lg:mx-8;
 }
 
 @utility section-my {
-	@apply my-16 md:my-20 lg:my-24 xl:my-28;
+  @apply my-16 md:my-20 lg:my-24 xl:my-28;
 }
 
 @utility section-mt {
-	@apply mt-16 md:mt-20 lg:mt-24 xl:mt-28;
+  @apply mt-16 md:mt-20 lg:mt-24 xl:mt-28;
 }
 
 @utility section-mb {
-	@apply mb-16 md:mb-20 lg:mb-24 xl:mb-28;
+  @apply mb-16 md:mb-20 lg:mb-24 xl:mb-28;
 }
 
 @utility section-my-sm {
-	@apply my-8 md:my-10 lg:my-12 xl:my-14;
+  @apply my-8 md:my-10 lg:my-12 xl:my-14;
 }
 
 @utility section-mt-sm {
-	@apply mt-8 md:mt-10 lg:mt-12 xl:mt-14;
+  @apply mt-8 md:mt-10 lg:mt-12 xl:mt-14;
 }
 
 @utility section-mb-sm {
-	@apply mb-8 md:mb-10 lg:mb-12 xl:mb-14;
+  @apply mb-8 md:mb-10 lg:mb-12 xl:mb-14;
 }
-
 
 @theme {
-	--font-fallback:
-		"Inter Variable", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-fallback:
+    "Inter Variable", "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-	--color-white: #fff;
-	--color-black: #000;
-	--color-transparent: transparent;
-	--color-current: currentColor;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-transparent: transparent;
+  --color-current: currentColor;
 }
-
 
 @layer utilities {
-	/* Typography Scale */
-	.text-size-1 {
-		@apply text-[2.025rem] leading-[1.1] font-normal lg:text-[3.25rem];
-		letter-spacing: -0.0055em;
-	}
+  /* Typography Scale */
+  .text-size-1 {
+    @apply text-[2.025rem] font-normal leading-[1.1] lg:text-[3.25rem];
+    letter-spacing: -0.0055em;
+  }
 
-	.text-size-2 {
-		@apply text-[1.6875rem] leading-[1.25] lg:text-[2.025rem];
-		letter-spacing: -0.0015em;
-	}
+  .text-size-2 {
+    @apply text-[1.6875rem] leading-[1.25] lg:text-[2.025rem];
+    letter-spacing: -0.0015em;
+  }
 
-	.text-size-3 {
-		@apply text-[1.35rem] leading-[1.2] lg:text-[1.6875rem];
-		letter-spacing: -0.0015em;
-	}
+  .text-size-3 {
+    @apply text-[1.35rem] leading-[1.2] lg:text-[1.6875rem];
+    letter-spacing: -0.0015em;
+  }
 
-	.text-size-4 {
-		@apply text-[1.125rem] leading-[1.25] lg:text-[1.35rem];
-		letter-spacing: -0.0015em;
-	}
+  .text-size-4 {
+    @apply text-[1.125rem] leading-[1.25] lg:text-[1.35rem];
+    letter-spacing: -0.0015em;
+  }
 
-	.text-size-5 {
-		@apply text-[1.0125rem] leading-[1.3] lg:text-[1.125rem];
-		letter-spacing: -0.0015em;
-	}
+  .text-size-5 {
+    @apply text-[1.0125rem] leading-[1.3] lg:text-[1.125rem];
+    letter-spacing: -0.0015em;
+  }
 
-	.text-size-1,
-	.text-size-2,
-	.text-size-3,
-	.text-size-4,
-	.text-size-5 {
-		@apply font-[450];
-		letter-spacing: -0.015em !important;
-	}
+  .text-size-1,
+  .text-size-2,
+  .text-size-3,
+  .text-size-4,
+  .text-size-5 {
+    @apply font-[450];
+    letter-spacing: -0.015em !important;
+  }
 
-	.text-size-6 {
-		@apply text-base leading-[1.5] font-normal tracking-normal;
-	}
+  .text-size-6 {
+    @apply text-base font-normal leading-[1.5] tracking-normal;
+  }
 
-	.text-size-7 {
-		@apply text-base leading-[1.6] tracking-normal lg:text-base;
-	}
+  .text-size-7 {
+    @apply text-base leading-[1.6] tracking-normal lg:text-base;
+  }
 
-	.text-size-8 {
-		@apply text-sm leading-[1.5] font-normal tracking-normal;
-	}
+  .text-size-8 {
+    @apply text-sm font-normal leading-[1.5] tracking-normal;
+  }
 
-	.text-size-9 {
-		@apply text-xs leading-[1.5] font-normal tracking-normal;
-		color: var(--color-muted-foreground);
-	}
+  .text-size-9 {
+    @apply text-xs font-normal leading-[1.5] tracking-normal;
+    color: var(--color-muted-foreground);
+  }
 }
-
