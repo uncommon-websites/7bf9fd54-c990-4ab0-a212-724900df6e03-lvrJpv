@@ -1,0 +1,8 @@
+export { default as Header } from './Header.svelte'
+export { default as HeroSection } from './HeroSection.svelte'
+export { default as HowItWorks } from './HowItWorks.svelte'
+export { default as SolutionsforOperationsManagers } from './SolutionsforOperationsManagers.svelte'
+export { default as CustomerTestimonials } from './CustomerTestimonials.svelte'
+export { default as KeyFeatures } from './KeyFeatures.svelte'
+export { default as CustomerLogos } from './CustomerLogos.svelte'
+export { default as Footer } from './Footer.svelte'
